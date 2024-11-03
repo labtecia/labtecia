@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AIIS Team</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-light-blue w3-wide w3-padding w3-card">  
+	<a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right " href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+	<a href="#home" class="w3-bar-item w3-button"><b>AIIS</b> Team</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#members" class="w3-bar-item w3-button">Members</a>
+	  <a href="#phdstudents" class="w3-bar-item w3-button">PhD Students</a>
+      <a href="#publications" class="w3-bar-item w3-button">Publications</a>
+    </div>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-light-blue w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About</a>
+  <a href="#members" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Members</a>
+  <a href="#phdstudents" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PhD Students</a>
+  <a href="#publications" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Publications</a>
+  
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>AIIS</b></span> <span class="w3-hide-small w3-text-light-grey">Team</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+<!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="aiis_logo.jpg" style="width:100%; height:70%;" >
+    <div class="w3-display-topright w3-container w3-text-blue w3-padding-32 w3-hide-small">
+      <!--<h3>LABTEC-IA</h3>-->
+      <p><b>Using AI Techniques in Information Security</b></p>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-content w3-padding-64 w3-animate-left" id="about">
+  
+	<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-light-blue ">Mission</h3>
+    <p>To pioneer innovative solutions in information security by leveraging the power of artificial intelligence. Our team is dedicated to developing advanced techniques to protect sensitive data and digital systems from emerging threats..
+    </p>
+	
+	<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-light-blue ">Research Focus</h3>
+	<ul>
+		<li> AI-Driven Threat Detection: Developing intelligent systems to proactively identify and respond to cyberattacks,</li>
+		<li> Machine/Deep Learning for Vulnerability Assessment: Utilizing ML/DL algorithms to automate vulnerability detection and risk assessment,</li>
+		<li> Natural Language Processing for Security Analysis: Employing NLP techniques to analyze security logs, reports, and threat intelligence,</li>
+	</ul>
+  </div>
+
+  <!-- About Section -->
+  
+  <!-- Membres Section -->
+  <div class="w3-container w3-content w3-padding-64 w3-animate-left " id="members">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-light-blue ">Members</h3>
+    <p>Our team includes two membres:
+    </p>
+	
+	<div class="w3-row-padding ">
+    <div class="w3-col 50 m6 w3-margin-bottom">
+      <img src="members/zm.jpg" alt="zm" style="width:100%">
+      <h3>Dr Mohammed ZAGANE</h3>
+      <p class="w3-opacity">Team head</p>
+      <p>Dr Mohammed ZAGANE, currently works as Professor Researcher at the department of computer science, University of Mustapha Stambouli, Mascara. He holds PhD in computer science from University of Oran1, Oran and Magister in computer science from ESI (higher national school of computer science, Algiers). His research interest include : Application of Machine learning and Deep learning in Software Engineering and Information Security.</p>
+      <a href="mailto:m_zagane@univ-mascara.dz"><button class="w3-button w3-orange w3-block">Contact</button></a>
+    </div>
+    <div class="w3-col 50 m6 w3-margin-bottom">
+      <img src="members/cb.jpg" alt="cb" style="width:100%">
+      <h3>Dr Brahim CHEROUATI</h3>
+      <p class="w3-opacity">Team member</p>
+      <p>Dr Brahim CHEROUATI, currently works as Professor Researcher at the department of computer science, University of Mustapha Stambouli, Mascara. He holds PhD in computer science from University of Oran1, Oran. His research interest include : Application of Machine learning and Deep learning in Signal Processing and Information Security.</p>
+      <a href="mailto:brahim.cherouati@univ-mascara.dz"><button class="w3-button w3-orange w3-block">Contact</button></a>
+    </div>
+  </div>
+  
+  <!-- PhD Students Section -->
+  <div class="w3-container w3-content w3-padding-64 w3-animate-left " id="phdstudents">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-light-blue ">Phd Students</h3>
+    <p>Current PhD student:
+    </p>
+	
+	<p>Past PhD student:
+    </p>
+	
+    
+  </div>
+	
+  </div>
+<!-- END Of Members Section -->
+
+<!-- Publication Section -->
+  <div class="w3-container w3-content w3-padding-64 w3-animate-left" id="publications">
+  
+	<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-light-blue ">Publications</h3>
+    <p> You can visit our Google scholar profiles for the full list of publications:</p>
+	<ul>
+		<li> Dr Mohammed ZAGANE: <a target="blank" href="https://scholar.google.com/citations?user=auRkkm8AAAAJ">visit here </a></li>
+		<li> Dr Brahim CHEROUATI: <a target="blank" href="https://scholar.google.com/citations?user=UQMuLYQAAAAJ">visit here </a></li>
+		
+	</ul>
+	
+	
+    
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+</script>
+
+
+</body>
+</html>
