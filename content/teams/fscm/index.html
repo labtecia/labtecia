@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FSCM Team</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue w3-wide w3-padding w3-card">  
+	<a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right " href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+	<a href="#home" class="w3-bar-item w3-button"><b>FSCM</b> Team</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#members" class="w3-bar-item w3-button">Members</a>
+	  <a href="#phdstudents" class="w3-bar-item w3-button">PhD Students</a>
+      <a href="#publications" class="w3-bar-item w3-button">Publications</a>
+    </div>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-blue w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About</a>
+  <a href="#members" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Members</a>
+  <a href="#phdstudents" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PhD Students</a>
+  <a href="#publications" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Publications</a>
+  
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>FSCM</b></span> <span class="w3-hide-small w3-text-light-grey">Team</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+<!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="fscm_logo.jpg" style="width:100%; height:70%;" >
+    <div class="w3-display-topright w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <!--<h3>LABTEC-IA</h3>-->
+      <p class="w3-blue" ><b>Food Safety and Contaminant Monitoring</b></p>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-content w3-padding-64 w3-animate-left" id="about">
+  
+	<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-blue ">Mission</h3>
+    <p>The mission of the Research Unit : Food Safety and Contaminant Monitoring (FSCM) is 
+to   advance   the   science   of   food   and   nutrition   through   innovative   research   that   integrates 
+Artificial Intelligence with traditional approaches, ultimately contributing to improved public 
+health and a sustainable food system.
+    </p>
+	
+	<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-blue ">Specific Mission Elements :</h3>
+	<ul>
+		
+		<li> Utilize  AI to develop personalized nutrition  recommendations  based  on  individual 
+needs, genetic predispositions, and lifestyle factors,</li>
+		
+		<li> Develop AI-driven systems for early detection and prediction of food safety risks, 
+including outbreaks of foodborne illnesses and contamination events,</li>
+		
+		<li> Develop AI-powered sensors and analytical tools for rapid and accurate detection of 
+contaminants   (e.g.,   pesticides,   heavy   metals,   mycotoxins)   in   food   and   the 
+environment.</li>
+	</ul>
+	
+	<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-blue ">Key research focus areas:</h3>
+	<ul>
+		
+		<li> <strong>I.AI-Driven Personalized Nutrition Recommendations :</strong>  Developing AI algorithms that 
+integrate personal data (e.g., genetics, lifestyle, health status, preferences) to generate tailored 
+dietary plans.</li>
+		
+		<li> <strong> II. AI-Enhanced Food Fraud Detection :</strong> Developing AI algorithms to detect food fraud and 
+adulteration   using   data   from   various   sources,   including   spectroscopic   analysis,   chemical 
+fingerprinting, and supply chain information.</li>
+		
+		<li> <strong>III. AI-Powered   Contaminant   Monitoring   and   Risk   Assessment : </strong>  Developing   AI-
+enhanced   sensors   and   analytical   tools   for   rapid   and   accurate   detection   of   chemical 
+contaminants (e.g., pesticides, heavy metals, mycotoxins) in food and the environment.</li>
+	</ul>
+  </div>
+
+  <!-- About Section -->
+  
+  <!-- Membres Section -->
+  <div class="w3-container w3-content w3-padding-64 w3-animate-left " id="members">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-blue ">Members</h3>
+    <p>Our team comprises three members ::
+    </p>
+	
+	<div class="w3-row-padding ">
+    <div class="w3-col 50 m6 w3-margin-bottom">
+      <img src="members/hm.jpg" alt="hm" style="width:100%">
+      <h3>Dr Mohammed HADJARI</h3>
+      <p class="w3-opacity">Team head</p>
+      <p>Dr Mohammed HADJARI, an associate professor at Mustapha Stambouli University of Mascara, Algeria, heads the Food Safety and Contaminant Monitoring (FSCM) team. The FSCM team is part of the Technological Laboratory in Artificial Intelligence and Food Safety (LABTEC-AI). His current research focuses on applying artificial intelligence to nutrition, metabolic diseases, oxidative stress, burnout, and occupational health.</p>
+      <a href="mailto:hadjari.m82@univ-mascara.dz"><button class="w3-button w3-orange w3-block">Contact</button></a>
+    </div>
+    <div class="w3-col 50 m6 w3-margin-bottom">
+      <img src="members/mk.jpg" alt="mk" style="width:100%">
+      <h3>Dr Hadj Mostefa KHELLADI</h3>
+      <p class="w3-opacity">Team member</p>
+      <p>Dr Hadj Mostefa KHELLADI, an associate professor at Mustapha Stambouli University of Mascara, Algeria, member of the Food Safety and Contaminant Monitoring (FSCM) team. Which is associated with the Technological Laboratory in Artificial Intelligence and Food Safety (LABTEC-AI). His current research focuses on nutrition and metabolic diseases.</p>
+      <a href="mailto:hadjmostefa.khelladi@univ-mascara.dz"><button class="w3-button w3-orange w3-block">Contact</button></a>
+    </div>
+	
+	<div class="w3-col 50 m6 w3-margin-bottom">
+      <img src="members/mz.jpg" alt="Mourad ZOGHLAMI" style="width:100%">
+      <h3>Dr. Mourad ZOGHLAMI</h3>
+      <p class="w3-opacity">Team member</p>
+      <p>Dr Mourad ZOGHLAMI, an associate professor at Mustapha Stambouli University of Mascara, Algeria, member of the Food Safety and Contaminant Monitoring (FSCM) team. Which is associated with the Technological Laboratory in Artificial Intelligence and Food Safety (LABTEC-AI). His current research focuses on Food, Nutrition, and Human Health.</p>
+      <a href="mailto:mourad.zoghlami@yahoo.fr"><button class="w3-button w3-orange w3-block">Contact</button></a>
+    </div>
+	
+	
+  </div>
+  
+  <!-- PhD Students Section -->
+  <div class="w3-container w3-content w3-padding-64 w3-animate-left " id="phdstudents">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-blue ">Phd Students</h3>
+    <p>Current PhD student:
+    </p>
+	
+	<p>Past PhD student:
+    </p>
+	
+    
+  </div>
+	
+  </div>
+<!-- END Of Members Section -->
+
+<!-- Publication Section -->
+  <div class="w3-container w3-content w3-padding-64 w3-animate-left" id="publications">
+  
+	<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-blue ">Publications</h3>
+    <p> You can visit our Google scholar profiles for the full list of publications:</p>
+	<ul>
+		<li> Dr. Mohammed HADJARI : <a target="blank" href="https://scholar.google.com/citations?hl=fr&authuser=1&user=g1WalNUAAAAJ">visit here </a></li>
+		<li> Dr. Hadj Mostefa KHELLADI :  <a target="blank" href="https://scholar.google.com/citations?hl=en&user=AtB5TT0AAAAJ">visit here </a></li>
+		
+		<li> Dr. Mourad ZOGHLAMI :   <a target="blank" href="https://scholar.google.com/citations?user=FCJgGQoAAAAJ">visit here </a></li>
+		
+	</ul>
+	
+	
+    
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+</script>
+
+
+</body>
+</html>
