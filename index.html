@@ -1,673 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>LABTEC-IA, Laboratoire Technologique en intelligence Artificielle et sécurité alimentaire</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
-<link rel="stylesheet" href="asset/css/w3.css">
-<link rel="stylesheet" href="asset/css/video.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/.section {
-            display: none; /* Hide all sections by default */
-        }libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {font-family: "Lato", sans-serif}
-.mySlides {display: none}
-.mysection {display: none}
-#events { display: block}
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>LABTEC-IA | Artificial Intelligence and Food Safety Research Laboratory</title>
+  <meta name="description" content="LABTEC-IA, Laboratoire Technologique en intelligence Artificielle et sécurité alimentaire, University of Mustapha Stambouli, Mascara, Algeria.">
+  <meta name="keywords" content="LABTEC-IA, artificial intelligence, food safety, research laboratory, cyber-physical systems, smart distributed systems">
 
-</style>
+  <link href="content/images/labtec-ia_logo.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&family=Raleway:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/lab-site.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Mentor
+  * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body class="bgteams">
 
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-blue w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right " href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-	
-    <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="showSection('events')">HOME</a>
-    <a href="#teams" class="w3-bar-item w3-button w3-padding-large w3-hide-small" onclick="showSection('teams')">TEAMS</a>
-	<a href="#events" class="w3-bar-item w3-button w3-padding-large w3-hide-small" onclick="showSection('events')">EVENTS</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small" onclick="showSection('contact')">CONTACT</a>
-	
-    <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-	    <a href="Reglement_Interieur_LABTEC-IA.pdf" class="w3-bar-item w3-button" target="_blank">Règlement Intérieur</a>
-        <a href="#publications" class="w3-bar-item w3-button" onclick="showSection('publications')">Publications</a>
-        <a href="#about" class="w3-bar-item w3-button" onclick="showSection('about')">About</a>
+<body class="lab-home-page" data-page="index">
+
+  <header id="header" class="header lab-header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <img src="content/images/labtec-ia_logo.png" alt="LABTEC-IA logo">
+        <span class="sitename">LABTEC-IA</span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="#about">Lab</a></li>
+          <li><a href="#teams">Teams</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="content/docs/Reglement_Interieur_LABTEC-IA.pdf" target="_blank" rel="noopener">Règlement</a>
+    </div>
+  </header>
+
+  <main class="main">
+    <section id="hero" class="lab-hero-v2 section">
+      <div class="hero-shade"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">University of Mustapha Stambouli, Mascara, Algeria</p>
+          <h1>LABTEC-IA</h1>
+          <p class="hero-subtitle">Laboratoire Technologique en intelligence Artificielle et sécurité alimentaire</p>
+          <div class="hero-actions">
+            <a href="#teams" class="lab-primary-btn">Research teams</a>
+            <a href="events.html" class="lab-secondary-btn">News & events</a>
+          </div>
+        </div>
+        <aside class="hero-panel">
+          <div class="panel-title">Laboratory scope</div>
+          <p>Artificial intelligence, cyber-physical systems, smart distributed systems, and food safety research.</p>
+          <div id="hero-stats" class="hero-stats"></div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section lab-about">
+      <div class="container">
+        <div class="row gy-5 align-items-center">
+          <div class="col-lg-5" data-aos="fade-right">
+            <div class="lab-logo-panel">
+              <img src="content/images/labtec-ia_logo.png" alt="LABTEC-IA logo">
+            </div>
+          </div>
+          <div class="col-lg-7" data-aos="fade-up">
+            <div class="lab-section-title">
+              <span>About the lab</span>
+              <h2>Technological Laboratory in Artificial Intelligence and Food Safety</h2>
+            </div>
+            <p class="lead">LABTEC-IA brings together four research teams working on Artificial Intelligence, Cyber-Physical Systems, Smart Distributed and Pervasive Systems, and Food Safety and Contaminant Monitoring.</p>
+            <div id="about-team-list" class="about-team-list"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="teams" class="section lab-teams light-background">
+      <div class="container">
+        <div class="lab-section-title text-center" data-aos="fade-up">
+          <span>Research structure</span>
+          <h2>Teams</h2>
+        </div>
+        <div id="teams-grid" class="row gy-4"></div>
+      </div>
+    </section>
+
+    <section id="events-preview" class="section lab-news">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-end justify-content-between gap-3 mb-4" data-aos="fade-up">
+          <div class="lab-section-title m-0">
+            <span>Latest news</span>
+            <h2>Events & announcements</h2>
+          </div>
+          <a class="lab-inline-link" href="events.html">Open full archive <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div id="home-events-list" class="event-feed"></div>
+      </div>
+    </section>
+
+    <section id="resources" class="section lab-resources light-background">
+      <div class="container">
+        <div class="lab-section-title text-center" data-aos="fade-up">
+          <span>Resources</span>
+          <h2>Documents and publication profiles</h2>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-5" data-aos="fade-up">
+            <div class="resource-panel">
+              <h3>Official documents</h3>
+              <div id="official-resources" class="resource-list"></div>
+            </div>
+          </div>
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+            <div class="resource-panel">
+              <h3>Publication profiles by team</h3>
+              <div id="publication-summary" class="team-publication-list"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section lab-contact">
+      <div class="container">
+        <div class="lab-section-title text-center" data-aos="fade-up">
+          <span>Contact</span>
+          <h2>Reach LABTEC-IA</h2>
+        </div>
+        <div id="contact-grid" class="row gy-4"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer lab-footer position-relative light-background">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <img src="content/images/labtec-ia_logo.png" alt="">
+            <span class="sitename">LABTEC-IA</span>
+          </a>
+          <div class="footer-contact pt-3" id="footer-contact"></div>
+          <div class="social-links d-flex mt-4" id="footer-social"></div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 footer-links">
+          <h4>Sections</h4>
+          <ul>
+            <li><a href="index.html#about">Lab</a></li>
+            <li><a href="index.html#teams">Teams</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="index.html#resources">Resources</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-3 footer-links">
+          <h4>Research Teams</h4>
+          <ul id="footer-teams"></ul>
+        </div>
       </div>
     </div>
-    <!--<a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>-->
-  </div>
-</div>
 
-<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="w3-bar-block w3-blue w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  
-  <a href="#teams" class="w3-bar-item w3-button w3-padding-large" onclick="showSection2('teams')">TEAMS</a>
-  <a href="#events" class="w3-bar-item w3-button w3-padding-large" onclick="showSection2('events')">EVENTS</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="showSection2('contact')">CONTACT</a>
-  
-</div>
-
-<!-- Page content -->
-<div class="w3-content" style="max-width:2000px;margin-top:46px">
-
-  <!-- Automatic Slideshow Images -->
-  <div class="mySlides w3-display-container w3-center">
-    <img src="images/site_cover.jpg" style="width:100%; height:70%;" >
-    <div class="w3-display-topright w3-container w3-text-blue w3-padding-32 w3-hide-small">
-      <!--<h3>LABTEC-IA</h3>-->
-      <p><b>Laboratoire Technologique en intelligence Artificielle et sécurité alimentaire</b></p>
-    </div>
-  </div>
-  <!--<div class="mySlides w3-display-container w3-center">
-    <img src="images/site_cover.jpg" style="width:100%" >
-    <div class="w3-display-topright w3-container w3-text-blue w3-padding-32 w3-hide-small">
-      <h3>LABTEC-IA</h3>
-      <p><b>Exacte Sciences Faculty</b></p>   
-    </div>
-  </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img src="images/site_cover.jpg" style="width:100% " >
-    <div class="w3-display-topright w3-container w3-text-blue w3-padding-32 w3-hide-small">
-      <!--<h3>LABTEC-IA</h3>
-      <p><b>University of Mustapha Stambouli, Mascara, Algeria</b></p> 
-    </div>
-  </div>-->
-
-  <!-- The TEAMS Section -->
-  <br>
-  <div class="w3-container w3-content w3-center w3-padding-64 w3-animate-top  mysection" style="max-width:1200px" id="teams">
-    <h2 class="w3-wide">TEAMS</h2>
-    <!--<p class="w3-opacity"><i>LABTEC-IA</i></p>-->
-    <p class="w3-justify">LABTEC-IA includes 04 teams:</p>
-    <div class="w3-row w3-padding-32">
-      <div class="w3-single w3-card-2 w3-round-xlarge w3-padding-16">
-        <p class="w3-blue">Team 1 : Cyber-Physical Systems & Artificial Intelligence (CPSAI)</p>
-		<p>Team head : Pr Kamel Benhaoua</p>
-        <img src="teams/cpsai/cpsai.jpg" class="w3-round w3-margin-bottom" alt="Team 1" style="width:60%">
-		<p class="w3-opacity w3-orange"><a href="teams/cpsai/index.html">Read more..</a></p>
-      </div>
-	  <br/>
-      <div class="w3-single w3-card-2 w3-round-xlarge w3-padding-16">
-        <p class="w3-blue">Team 2 : Smart Distributed and Pervasive Systems (SDPS)</p>
-		<p>Team head : Dr Meriem Medber</p>
-        <img src="teams/sdps/sdps.jpg" class="w3-circle w3-margin-bottom" alt="Team 2" style="width:60%">
-		<p class="w3-opacity w3-orange"><a href="teams/sdps/index.html">Read more..</a></p>
-      </div>
-	  <br/>
-      <div class="w3-single w3-card-2 w3-round-xlarge w3-padding-16">
-        <p class="w3-blue">Team 3 : Food Safety and Contaminant Monitoring (FSCM)</p>
-		<p>Team head : Dr Mohammed Hadjari</p>
-        <img src="teams/fscm/fscm.jpg" class="w3-circle w3-margin-bottom" alt="Team 1" style="width:60%">
-		<p class="w3-opacity w3-orange"><a href="teams/fscm/index.html">Read more..</a></p>
-      </div>
-	  <br/>
-	  <div class="w3-single w3-card-2 w3-round-xlarge w3-padding-16">
-        <p class="w3-blue">Team 4 : Artificial Intelligence and Intelligent Systems (AIIS)</p>
-		<p>Team head : Dr Mohammed Zagane</p>
-        <img src="teams/aiis/aiis.jpg" class="w3-round w3-margin-bottom" alt="Team 1" style="width:60%">
-		<p class="w3-opacity w3-orange"><a href="teams/aiis/index.html">Read more..</a></p>
-      </div>
-	  <br/>
-    </div>
-  </div>
-  <br>
-
-<!-- The events Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64 w3-animate-top mysection" style="max-width:1200px" id="events">
-    <h2 class="w3-wide w3-text-blue">Latest news</h2>
-    <div class="w3-row w3-padding-32">
-	
-	<!--  UPDATE ABOUT NC-AIRIS26 ---->
-	 <div class="w3-single w3-card-2 w3-round-xlarge" id="workshop_nvidia_2025">
-        <br>
-		<p class=" w3-text-blue "><strong>THE FIRST NATIONAL CONFERENCE ON ARTIFICIAL INTELLIGENCE: RESEARCH INNOVATION & SYSTEMS </strong></p>
-		<p class="w3-text-green w3-justify w3-margin-left w3-margin-right ">We are delighted to announce that LABTEC-AI will organize 
-		the First National Conference On Artificial Intelligence: Research Innovation & Systems (NC-AIRIS'26). Building on our experience in successfully hosting previous 
-		scientific events, this conference aims to bring together researchers, academics, and professionals from across the country to exchange ideas, present innovative work, and foster collaboration in a dynamic and inspiring environment.</p>
-		<p class="w3-justify w3-margin-left w3-margin-right"> </p>	
-		
-		<p class="w3-text-green w3-justify w3-margin-left w3-margin-right">  Learn more about the conference, themes, and important dates here:: <a target="_blank" href="https://www.univ-mascara.dz/nc-airis26/"> https://www.univ-mascara.dz/nc-airis26/</a>
-		</p>
-		
-		<p class="w3-text-green w3-justify w3-margin-left w3-margin-right ">We warmly invite you to join us, contribute your research, and be part of this exciting scientific gathering.
-		Stay tuned for more updates!<p class="w3-justify w3-margin-left w3-margin-right"> </p>	
-		
-		<br>
-		<br>
-		
-        <img src="events/nc-airis26/banner1.jpg" class="w3-round w3-margin-bottom" alt="NC-MAGE-2026" style="width:60%">
-		<br>
-		<img src="events/nc-airis26/banner2.jpg" class="w3-round w3-margin-bottom" alt="NC-MAGE-2026" style="width:60%">
-		<br>
-		
-	
-		<br>
-		
-		
-      </div>
-	  <br>
-	<!--  END : UPDATE ABOUT NC-AIRIS26 ---->
-	
-	<!--  UPDATE ABOUT NC-MAGE26 ---->
-	 <div class="w3-single w3-card-2 w3-round-xlarge" id="workshop_nvidia_2025">
-        <br>
-		<p class=" w3-text-blue "><strong>The First National Conference on Mathematical Geometry (1st NC-MAGE-2026) </strong></p>
-		<p class="w3-text-green w3-justify w3-margin-left w3-margin-right ">LABTEC-IA is pleased to announce its collaboration with the Department of Mathematics, 
-		Faculty of Exact Sciences, at Mustapha Stambouli University of Mascara for the organization of The First National Conference on Mathematical Geometry (1st NC-MAGE-2026)</p>
-		<p class="w3-justify w3-margin-left w3-margin-right"> </p>
-				
-		
-		
-		
-		<br>
-		<br>
-		
-        <img src="events/nc-mage26/banner2.jpg" class="w3-round w3-margin-bottom" alt="NC-MAGE-2026" style="width:60%">
-		<br>
-		<img src="events/nc-mage26/banner1.jpg" class="w3-round w3-margin-bottom" alt="NC-MAGE-2026" style="width:60%">
-		<br>
-		
-		<p class="w3-justify w3-margin-left w3-margin-right"> For more information about the conference program, keynote speakers, and other details, please visit the official conference website at: <a target="_blank" href="https://nc-mg2026.github.io/"> NC-MAGE'26 Web Site</a>
-		</p>
-	
-		<br>
-		
-		
-      </div>
-	  <br>
-	<!--  END : UPDATE ABOUT NC-MAGE26 ---->
-	
-	
-	<!--  UPDATE ABOUT AICPS 2025 More photos ---->
-	  <div class="w3-single w3-card-2 w3-round-xlarge" id="workshop_nvidia_2025">
-        <br>
-		<p class=" w3-text-blue ">More Moments from AICPS’25</p>
-		<p class="w3-text-green w3-justify w3-margin-left w3-margin-right ">Check out the full photo gallery on Flickr:</p>
-		<p class="w3-justify w3-margin-left w3-margin-right"> <a href="https://flic.kr/ps/474Rqx" target="_blank"> https://flic.kr/ps/474Rqx </a></p>
-		
-		<br>
-		<br>		
-		<br>
-	
-		<br>
-		
-		
-      </div>
-	  <br>
-	<!--  END : UPDATE ABOUT AICPS 2025 More photos ---->
-	
-	<!--  UPDATE ABOUT AICPS 2025 Completion ---->
-	  <div class="w3-single w3-card-2 w3-round-xlarge" id="workshop_nvidia_2025">
-        <br>
-		<p class=" w3-text-blue ">IEEE International Conference on Artificial Intelligence and Cyber-Physical Systems (AICPS’25)</p>
-		<p class="w3-text-green w3-justify w3-margin-left w3-margin-right ">We are proud to announce the successful completion of the first edition of AICPS’25, organized by our laboratory at Mustapha Stambouli University of Mascara.
-           This two-day international conference brought together researchers,
-		   academics, and professionals from around the world to explore the latest innovations and challenges 
-		   in Artificial Intelligence and Cyber-Physical Systems. </p>
-		<p class="w3-justify w3-margin-left w3-margin-right"><strong>Highlights of the Two Days: </strong></p>
-		<ul class="w3-justify">
-			<li> <strong>Five keynote talks</strong> delivered by distinguished speakers from France, Spain, the USA, and the UK, covering cutting-edge topics such as AI-driven smart environments, environmental digital twins, edge computing, and neuro-symbolic AI,</li>
-			<li><strong>Ten technical sessions and a poster session</strong> showcasing original research on a broad range of topics — from AI for healthcare, security, and embedded systems to machine learning applications, social AI, and intelligent networks,</li>
-			<li>A vibrant <strong>hybrid format </strong> that connected in-person participants in Mascara with international researchers through online sessions, fostering rich discussions and collaborations.</li>
-			<li>A friendly and inspiring <strong>social event and cultural visit</strong>, strengthening academic and professional ties among participants.</li>
-		</ul>
-		<p class="w3-justify w3-margin-left w3-margin-right"><strong>Appreciation & Thanks: </strong></p>
-		<p class="w3-justify w3-margin-left w3-margin-right"> 
-		We extend our heartfelt thanks to all who made AICPS’25 a resounding success —
-       especially the University Rector, the Dean of the Faculty of Exact Sciences, our dedicated Organizing and Scientific Committees, and the many volunteers whose efforts ensured a seamless event.
-		</p>
-		<p class="w3-justify w3-margin-left w3-margin-right">
-        Special thanks to our keynote speakers, authors, and participants for sharing their expertise and enthusiasm, and for contributing to the success of this first edition.
-		
-		</p>
-		
-		<p class="w3-text-green w3-justify w3-margin-left w3-margin-right ">Together, we’ve laid the foundation for a strong and collaborative community advancing research in Artificial Intelligence and Cyber-Physical Systems.
-		We look forward to seeing you again at AICPS’26!</p>
-		
-		
-		
-		<br>
-		<br>
-		
-        <img src="events/aicps_2025/completion.jpg" class="w3-round w3-margin-bottom" alt="AICPS'25 COMPLETION" style="width:60%">
-		
-		<br>
-	
-		<br>
-		
-		
-      </div>
-	  <br>
-	<!--  END : UPDATE ABOUT AICPS 2025 Completion ---->
-	
-	
-	<!--  UPDATE (26/010/2025) ABOUT AICPS'25 Conference ---->
-	  <div class="w3-single w3-card-2 w3-round-xlarge" id="workshop_nvidia_2025">
-        <br>
-		<p class=" w3-text-blue "><strong>The First IEEE/International Conference on Artificial Intelligence and Cyber-Physical Systems (AICPS'25) is just around the corner — November 2–3, 2025! </strong></p>
-		<p class="w3-text-green w3-justify w3-margin-left w3-margin-right ">Join us for two inspiring days of talks, research, and collaboration in AI and CPS. Don’t miss out </p>
-		<p class="w3-justify w3-margin-left w3-margin-right"> </p>
-				
-		
-		
-		<p class="w3-justify w3-margin-left w3-margin-right"> See you soon on November 2–3, 2025, at the University of Mustapha Stambouli, Mascara!</a>
-		</p>
-		
-		<br>
-		<br>
-		
-        <img src="events/aicps_2025/bandrole_26_10_2025.jpg" class="w3-round w3-margin-bottom" alt="AICPS'25 CFP" style="width:60%">
-		
-		<br>
-		
-		<p class="w3-justify w3-margin-left w3-margin-right"> For more information about the conference program, keynote speakers, and other details, please visit the official conference website at: <a target="_blank" href="https://www.univ-mascara.dz/aicps2025/"> AICPS'25</a>
-		</p>
-	
-		<br>
-		
-		
-      </div>
-	  <br>
-	<!--  END : UPDATE (26/010/2025) ABOUT AICPS'25 Conference ---->
-	
-	<!--  signing of a collaboration agreement between LABTEC-AI and GESLAB ---->
-	  <div class="w3-single w3-card-2 w3-round-xlarge" id="workshop_nvidia_2025">
-        <br>
-		<p class=" w3-text-blue ">Official Collaboration Agreement Signed Between LABTEC-AI and GESLAB</p>
-		<p class="w3-text-green w3-justify w3-margin-left w3-margin-right ">We are delighted to announce the signing of an official collaboration agreement between <strong>LABTEC-AI</strong>, affiliated with the Faculty of <strong>Exact Sciences</strong>, and <strong>GESLAB</strong>, from the Faculty of <strong>Natural and Life Sciences</strong>. </p>
-		<p class="w3-justify w3-margin-left w3-margin-right">The official signing ceremony took place in the presence of the <strong> Deans of both faculties </strong>, as part of the <strong>First National Conference on Agronomical Innovations and Decision-Support Tools</strong>, jointly organized by the two laboratories. </p>
-				
-		<p class="w3-justify w3-margin-left w3-margin-right"> This partnership marks an important milestone in promoting interdisciplinary collaboration between the fields of exact sciences and agronomical sciences. By combining expertise in artificial intelligence, environmental systems, and precision agriculture, <strong>LABTEC-AI</strong> and <strong>GESLAB</strong> aim to advance innovative research, address complex scientific challenges, and foster impactful knowledge exchange.
-		</p>
-		
-		
-		<p class="w3-justify w3-margin-left w3-margin-right"> We look forward to the fruitful outcomes that will emerge from this collaboration and to strengthening our shared commitment to excellence in research and academic innovation</a>
-		</p>
-		
-		<br>
-		<br>
-		
-        <img src="events/collaboration_agreement_labtecai_geslab/1.jpg" class="w3-round w3-margin-bottom" alt="LABTEC-AI and GESLAB 1" style="width:60%">
-		<br>
-		<img src="events/collaboration_agreement_labtecai_geslab/2.jpg" class="w3-round w3-margin-bottom" alt="LABTEC-AI and GESLAB 2" style="width:60%">
-		
-		<br>
-	
-		<br>
-		
-		
-      </div>
-	  <br>
-	<!--  END : UPDATE ABOUT nc_ai_tools 2025 ---->
-	
-	
-	<!--  UPDATE ABOUT nc_ai_tools 2025 Conference ---->
-	  <div class="w3-single w3-card-2 w3-round-xlarge" id="workshop_nvidia_2025">
-        <br>
-		<p class=" w3-text-blue ">NC-AI-TOOLS’25 — Just a Few Days Away!</p>
-		<p class="w3-text-green w3-justify w3-margin-left w3-margin-right ">The First National Conference on Agricultural Innovations & Decision-Support Tools (NC-AI-TOOLS’25) is just around the corner! </p>
-		<p class="w3-justify w3-margin-left w3-margin-right">Organized by the <strong>Geo-Environment and Spaces Development</strong> Laboratory, in collaboration with the <strong>LABTEC-IA</strong> Laboratory and the <strong>Mascara Incubator</strong>, this event will bring together experts, researchers, and practitioners to discuss the latest innovations and digital tools transforming agriculture. </p>
-				
-		<p class="w3-justify w3-margin-left w3-margin-right"> Don’t miss this opportunity to exchange ideas, discover cutting-edge work, and be part of an inspiring national event!</a>
-		</p>
-		
-		<p class="w3-justify w3-margin-left w3-margin-right"> See you soon on October 12–13, 2025, at the University of Mustapha Stambouli, Mascara!</a>
-		</p>
-		
-		<br>
-		<br>
-		
-        <img src="events/nc_ai_tools/nc_ai_tools_bandrole.jpg" class="w3-round w3-margin-bottom" alt="AICPS'25 CFP" style="width:60%">
-		
-		<br>
-	
-		<br>
-		
-		
-      </div>
-	  <br>
-	<!--  END : UPDATE ABOUT nc_ai_tools 2025 ---->
-	
-	
-      
-	  <!--  UPDATE ABOUT nc_ai_tools 2025 Conference ---->
-	 <!-- <div class="w3-single w3-card-2 w3-round-xlarge" id="workshop_nvidia_2025">
-        <br>
-		<p class=" w3-text-blue ">The NC- AI-Tools 2025 Conference Program</p>
-		<p class="w3-text-green w3-justify w3-margin-left w3-margin-right ">Announcement : </p>
-		<p class="w3-justify w3-margin-left w3-margin-right"> The Geo-Environment and Spaces Development Laboratory, the LABTEC-IA Laboratory, and the Mascara Incubator are pleased to announce that the program for the First National Conference on Agricultural Innovations & Decision-Support Tools (NC-AI-TOOLS’25) is now available!</p>
-		<p class="w3-justify w3-margin-left w3-margin-right"> You can download the full conference program at the following link:
-		<a class="w3-margin-left w3-margin-right w3-text-red" href="https://drive.google.com/file/d/1aMC0vh28FHWfPwSevXuyhzfok-15-gHT/view?usp=sharing" target="_blank"> NC-AI-TOOLS'25 PROGRAM</a>
-		</p>
-		
-		<p class="w3-justify w3-margin-left w3-margin-right"> We look forward to welcoming all participants and contributors to this exciting event dedicated to advancing innovation and technology in agriculture.</a>
-		</p>
-		
-		<br>
-		<br>
-		
-        <img src="events/nc_ai_tools/nc_ai_tools_program.jpg" class="w3-round w3-margin-bottom" alt="AICPS'25 CFP" style="width:60%">
-		
-		<br>
-	
-		<br>
-		
-		
-      </div>
-	  <br>
-	  <!--  END : UPDATE ABOUT nc_ai_tools 2025 ----> 
-	  
-	  
-	  <!--  nc_ai_tools 2025 Conference ---->
-	  <div class="w3-single w3-card-2 w3-round-xlarge" id="workshop_nvidia_2025">
-        <br>
-		<p class=" w3-text-blue ">The First National Conference on  Agricultural Innovations & Decision-Support Tools</p>
-		<p class="w3-text-green w3-justify w3-margin-left w3-margin-right ">About : </p>
-		<p class="w3-justify w3-margin-left w3-margin-right"> The Geo-Environment and Spaces Development Laboratory, in collaboration with the LABTEC-IA Laboratory and the Mascara Incubator, is organizing the first National Conference on Agricultural Innovations & Decision-Support Tools (NC-AI-TOOLS'25). 
-		</p>
-		<p class="w3-text-green w3-justify w3-margin-left w3-margin-right ">Conference CFP: </p>
-		
-		<p class="w3-justify w3-margin-left w3-margin-right">For full details, please refer to the Call for Papers (CFP) at the following link:  
-		<a class="w3-margin-left w3-margin-right w3-text-red" href="events/nc_ai_tools/nc_ai_tools_cfp.pdf" target="_blank"> NC-AI-TOOLS'25 CFP</a>
-		</p>
-		
-		
-		<br>
-		<br>
-		
-        <img src="events/nc_ai_tools/nc_ai_tools.jpg" class="w3-round w3-margin-bottom" alt="AICPS'25 CFP" style="width:60%">
-		
-		<br>
-	
-		<br>
-		
-		
-      </div>
-	  <!--  END :nc_ai_tools 2025 ----> 
-	  <br>
-	  
-	  <!--  AICPS 2025 Conference ---->
-	  <div class="w3-single w3-card-2 w3-round-xlarge" id="workshop_nvidia_2025">
-        <br>
-		<p class=" w3-text-blue ">The First International Conference on Artificial Intelligence and Cyber Physical Systems AICPS'25 </p>
-		<p class="w3-text-green w3-justify w3-margin-left w3-margin-right ">About : </p>
-		<p class="w3-justify w3-margin-left w3-margin-right">LABTEC-IA is delighted to announce the organization of the First International Conference on Artificial Intelligence and Cyber Physical Systems (AICPS'25).  AICPS'2025 aims to bring together researchers, academics, engineers, and industry professionals in the fields of Artificial Intelligence (AI) and Cyber-Physical Systems (CPS) to share groundbreaking research and explore the latest advancements. </p>
-		<p class="w3-text-green w3-justify w3-margin-left w3-margin-right ">Conference web site: </p>
-		
-		<p class="w3-justify w3-margin-left w3-margin-right">Please visit the conference web site for more information :  
-		<a class="w3-margin-left w3-margin-right w3-text-red" href="https://www.univ-mascara.dz/aicps2025/" target="_blank"> AICPS'25 Web Site</a>
-		</p>
-		
-		
-		<br>
-		<br>
-		
-        <img src="events/aicps_2025/cfp.jpg" class="w3-round w3-margin-bottom" alt="AICPS'25 CFP" style="width:60%">
-		
-		<br>
-		
-		<div class="container">
-			
-
-			<div id="myModal" class="modal">
-				<div class="modal-content">
-					<span class="close" id="mySpan">&times;</span>
-					<video width="100%" id="myVideo" controls>
-						<source src="events/aicps_2025/aicps25-shaping-the-future V5.mp4" type="video/mp4">
-						Your browser does not support HTML video.
-					</video>
-				</div>
-			</div>
-		</div>
-		
-		<br>
-		
-		<br>
-		
-		<p class="w3-opacity w3-orange w3-text-black"><a href="#" id="showMoreLink">Intro Video (Watch Now)..</a></p>
-		<br>
-		
-      </div>
-	  <!--  END :AICPS 2025 ----> 
-	  
-	  <br>
-	  
-	  <!--  NVIDIA DLI 2025 Event ---->
-	  <div class="w3-single w3-card-2 w3-round-xlarge" id="workshop_nvidia_2025">
-        <br>
-		<p class=" w3-text-blue ">A two-days NVIDIA workshop, including certification, will be held on Wednesday, February 19, and Thursday, February 20, 2025, at Mustapha Stambouli University in Mascara </p>
-		<p class="w3-text-green w3-justify w3-margin-left w3-margin-right ">About : </p>
-		<p class="w3-justify w3-margin-left w3-margin-right"> This workshop covers deep learning techniques for various computer vision tasks. Beginning with an introduction to deep learning, participants will progress to building and deploying deep learning applications for image classification and object detection. The workshop also focuses on modifying neural networks to enhance their accuracy and performance. Attendees will implement these techniques in a final project. Upon completion, participants will gain access to additional resources to develop new deep learning applications independently.. </p>
-		
-        <img src="events/workshop_nvidia_2025/workshop_nvidia_2025.png" class="w3-round w3-margin-bottom" alt="ECO-GIRE project" style="width:60%">
-		
-		<br>
-		
-		<div class="container">
-			
-
-			<div id="myModal" class="modal">
-				<div class="modal-content">
-					<span class="close" id="mySpan">&times;</span>
-					<video width="100%" id="myVideo" controls>
-						<source src="events/workshop_nvidia_2025/nvidia_workshop_promotion.mp4" type="video/mp4">
-						Your browser does not support HTML video.
-					</video>
-				</div>
-			</div>
-		</div>
-		
-		<p class="w3-text-green w3-justify w3-margin-left w3-margin-right ">Register : </p>
-		<a class="w3-left w3-margin-left w3-margin-right w3-text-red" href="https://shorturl.at/1WvA5" target="_blank"> https://shorturl.at/1WvA5</a>
-		<br>
-		<p class="w3-text-green w3-justify w3-margin-left w3-margin-right ">More information about the workshop : </p>
-		
-		<a class="w3-left w3-margin-left w3-margin-right w3-text-red" href="https://www.nvidia.com/content/dam/en-zz/Solutions/deep-learning/deep-learning-education/dli-fundamentals-of-deep-learning-1369828-r3-web.pdf" target="_blank"> Fundamentals of Deep Learning datasheet</a>
-		<br>
-		
-		<p class="w3-opacity w3-orange"><a href="#" id="showMoreLink">Intro Video (Watch Now)..</a></p>
-		<br>
-		
-      </div>
-	  <!--  END :NVIDIA DLI 2025 Event ----> 
-	  
-	  <br>
-	  
-	  <!--  ECO-GIRE Event ---->
-	  <div class="w3-single w3-card-2 w3-round-xlarge">
-        <br>
-		<p class=" w3-text-blue">ECO-GIRE Project: Follow-up session with the project's socio-economic partner </p>
-		<p> Professor Kamal Ben Houa, Director of LABTEC-IA, participated as the Research Project Manager (ECO-GIRE) in a work meeting and follow-up session with the project's socio-economic partner: ADE (Algérienne Des Eaux), This meeting was attended by officials, management, and professor-researchers who are members of the project's research team. </p>
-        <img src="events/pnr_project_2024/eco-gire_24-11-2024.jpg" class="w3-round w3-margin-bottom" alt="ECO-GIRE project" style="width:60%">
-		
-		<p class="w3-opacity w3-orange"><a href="https://www.facebook.com/share/p/1SztrKRvWZ/" target="_blank">Read more..</a></p>
-		<br>
-      </div>
-	  <!--  END : ECO-GIRE event  ---->
-	  
-	  <br>
-	  
-	  <!--  the valorization day organised by LABTEC-IA and the the Thematic  Research Agency , Event 2 -->
-	  <div class="w3-single w3-card-2 w3-round-xlarge">
-        <br>
-		<p class=" w3-text-blue">Highlights from the valorization day organised by LABTEC-IA and the the Thematic  Research Agency in Health and Life Sciences</p>
-        <img src="events/pnr_project_2024/day_end_1.jpg" class="w3-round w3-margin-bottom" alt="ECO-GIRE project" style="width:60%">
-		<img src="events/pnr_project_2024/day_end_2.jpg" class="w3-round w3-margin-bottom" alt="ECO-GIRE project" style="width:60%">
-		<p class="w3-opacity w3-orange"><a href="https://www.facebook.com/share/p/Gv5pJBkLiNRM3T1k/">Read more..</a></p>
-		<br>
-      </div>
-	  <!--  END: the valorization day organised by LABTEC-IA and the the Thematic  Research Agency , Event -->
-	  
-	  <br>
-	  
-	  <!--  the valorization day organised by LABTEC-IA and the the Thematic  Research Agency , Event 1 -->     
-	  <div class="w3-single w3-card-2 w3-round-xlarge">
-        <br>
-		<p class=" w3-text-blue">Day of valorizating the first year of the PNR project results</p>
-        <img src="events/pnr_project_2024/day_val_pnr_project_2024.jpg" class="w3-round w3-margin-bottom" alt="ECO-GIRE project" style="width:60%">
-		<p class="w3-opacity w3-orange"><a href="events/pnr_project_2024/day_val_pnr_project_2024.jpg">Read more..</a></p>
-		<br>
-      </div>
-	  
-	  <!--  END: the valorization day organised by LABTEC-IA and the the Thematic  Research Agency , Event 1 -->     
-	  
-	  <br>
-	  
-	  <!-- Workshop on : programming of real time embedded systems and advanced configuration of IoT devices  -->
-	  <div class="w3-single w3-card-2 w3-round-xlarge">
-        <br>
-		<p class=" w3-text-blue">Workshop on : programming of real time embedded systems and advanced configuration of IoT devices</p>
-        <img src="events/workshop_2024/workshop_2024.jpg" class="w3-round w3-margin-bottom" alt="workshop 2024" style="width:60%">
-		<p class="w3-opacity w3-orange"><a href="events/workshop_2024/index.html">Read more..</a></p>
-		<br>
-      </div>
-	  
-	  <!-- END: Workshop on : programming of real time embedded systems and advanced configuration of IoT devices  -->
-	  
-    </div>
-  </div> 
-
-  
-  <!-- The Contact Section -->
-  <div class="w3-container w3-content w3-padding-64 w3-animate-top mysection" style="max-width:1200px" id="contact">
-    <h2 class="w3-wide w3-center">CONTACT</h2>
-    <p class="w3-opacity w3-center"><i>To contact us, please use the following information:</i></p>
-    <div class="w3-row w3-padding-32">
-      <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i> University of Mustapha Stambouli, Mascara, Algeria<br>
-        <i class="fa fa-phone" style="width:30px"></i> Phone: +213 0559077751<br>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: labtec-ia@univ-mascara.dz<br>
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">LABTEC-IA</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | Template: <a href="https://bootstrapmade.com/mentor-free-education-bootstrap-theme/">Mentor</a>
       </div>
     </div>
-  </div>
-  
-<!-- End Page Content -->
-</div>
+  </footer>
 
-<!-- Image of location/map -->
-<!--<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
--->
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  
-  <p class="w3-opacity w3-center"><i>Our pages on social media:</i></p>
-  
-  <a href="https://www.facebook.com/profile.php?id=61567079515100" target="_blank">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  </a>
-  
-  <a href="https://www.linkedin.com/company/labtec-ia/" target="_blank">
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </a>
-  
-  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
 
-<script>
-
-// Get the modal
-var mymodal = document.getElementById("myModal");
-
-// Get the link that opens the modal
-var mylink = document.getElementById("showMoreLink");
-
-// Get the <span> element that closes the modal
-var myspan = document.getElementById("mySpan");
-
-// Get the <video> element 
-var myvideo = document.getElementById("myVideo");
-
-// When the user clicks the link, open the modal 
-mylink.onclick = function() {
-    mymodal.style.display = "block";
-	myvideo.play();
-
-}
-
-// When the user clicks on <span> (x), close the modal
-myspan.onclick = function() {
-    mymodal.style.display = "none";
-	myvideo.pause(); // Pause the video
-    myvideo.currentTime = 0; // Reset the video to the beginning
-}
-
-</script>
-
-<script>
-// Automatic Slideshow - change image every 4 seconds
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 4000);    
-}
-
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-
-function showSection(sectionId) 
-{
-            // Hide all sections
-            const sections = document.querySelectorAll('.mysection');
-            sections.forEach(section => {
-                section.style.display = 'none';
-            });
-
-            // Show the selected section
-            const selectedSection = document.getElementById(sectionId);
-            if (selectedSection) {
-                selectedSection.style.display = 'block';
-            }
-}
-
-function showSection2(sectionId) 
-{
-            myFunction();
-			// Hide all sections
-            const sections = document.querySelectorAll('.mysection');
-            sections.forEach(sec => {
-                sec.style.display = 'none';
-            });
-
-            // Show the selected section
-            const selectedSection = document.getElementById(sectionId);
-            if (selectedSection) {
-                selectedSection.style.display = 'block';
-            }
-}
-
-// When the user clicks anywhere outside of the modal, close it
-var modal = document.getElementById('ticketModal');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-
-
-</script>
-
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="data/site-data.js"></script>
+  <script src="assets/js/lab-site.js"></script>
 </body>
+
 </html>
