@@ -63,9 +63,9 @@
 
     setHTML("#hero-stats", [
       statChip("Teams", teams.length),
-      statChip("Events", data.events.length),
+      statChip("Events", data.events.length)/*,
       statChip("Media sets", (data.mediaArchive || []).length),
-      statChip("Archive pages", (data.legacyPages || []).length)
+      statChip("Archive pages", (data.legacyPages || []).length)*/
     ].join(""));
 
     setHTML("#about-team-list", teams.map((team) => `
