@@ -1,7 +1,7 @@
-﻿window.LABTEC_DATA = {
+{
   "site": {
     "name": "LABTEC-IA",
-    "fullName": "Laboratoire Technologique en intelligence Artificielle et sÃ©curitÃ© alimentaire",
+    "fullName": "Laboratoire Technologique en intelligence Artificielle et sécurité alimentaire",
     "englishName": "Technological Laboratory in Artificial Intelligence and Food Safety",
     "affiliation": "University of Mustapha Stambouli, Mascara, Algeria",
     "heroImage": "images/site_cover.jpg",
@@ -25,7 +25,7 @@
     ],
     "resources": [
       {
-        "label": "RÃ¨glement IntÃ©rieur",
+        "label": "Règlement Intérieur",
         "url": "docs/Reglement_Interieur_LABTEC-IA.pdf",
         "type": "PDF"
       }
@@ -101,7 +101,7 @@
           "name": "Dr. Cherifa BOUDIA",
           "role": "Team member",
           "image": "cpsai_members/chb.jpg",
-          "bio": "Dr. Cherifa BOUDIA received her PhD degree in Computer Science from the University of Oran 1 Ahmed Ben Bella, Algeria in 2020. Her research is focused on methods of e-learning for Java programming language; collaborative e-learning; blended learning, developing a collaborative platform for e-learning at the university of Oran 1 Ahmed Ben Bella. Now, she is an associate professor at the University Mustafa Stambouli of Mascara, developed a passion for ICT educational tool, and studentsâ€™ assistance.",
+          "bio": "Dr. Cherifa BOUDIA received her PhD degree in Computer Science from the University of Oran 1 Ahmed Ben Bella, Algeria in 2020. Her research is focused on methods of e-learning for Java programming language; collaborative e-learning; blended learning, developing a collaborative platform for e-learning at the university of Oran 1 Ahmed Ben Bella. Now, she is an associate professor at the University Mustafa Stambouli of Mascara, developed a passion for ICT educational tool, and students’ assistance.",
           "contact": "mailto:cherifa.boudia@univ-mascara.dz",
           "profiles": [
             {
@@ -153,7 +153,7 @@
           "name": "Dr. Bendouda djamila",
           "role": "Team member",
           "image": "cpsai_members/bdj.jpg",
-          "bio": "Dr. Bendouda djamila is an Associate Professor at ENSTA (Ecole Nationale SupÃ©rieure des Technologies AvancÃ©es).",
+          "bio": "Dr. Bendouda djamila is an Associate Professor at ENSTA (Ecole Nationale Supérieure des Technologies Avancées).",
           "contact": "mailto:#",
           "profiles": [
             {
@@ -187,7 +187,7 @@
       "logo": "sdps/sdps_logo.jpg",
       "membershipNote": "Our team includes six membres:",
       "mission": [
-        "The Smart Distributed and Pervasive Systems (SDPS) Team, conducts cutting edge research that focuses on challenges surrounding the development of systems combining Cloud Computing and the Internet of Things (IoT). In order to enable the convergence of smart objects, big data and Clouds, and create new frameworks able to offer services for detecting, controlling and processing big data. Cloud platforms are used to store data, use it for the creation of â€œsmart environmentsâ€, and develop advanced models which can help to identify, monitor, optimize, learn and process our environment. The IOT will evolve towards a cognitive IOT model in which objects have the ability to learn and understand the physical and the social world. Pattern mining algorithms, machine learning methods and artificial intelligence techniques will be designed and executed on the Cloud in a distributed and elastic fashion to automate decision making processes."
+        "The Smart Distributed and Pervasive Systems (SDPS) Team, conducts cutting edge research that focuses on challenges surrounding the development of systems combining Cloud Computing and the Internet of Things (IoT). In order to enable the convergence of smart objects, big data and Clouds, and create new frameworks able to offer services for detecting, controlling and processing big data. Cloud platforms are used to store data, use it for the creation of “smart environments”, and develop advanced models which can help to identify, monitor, optimize, learn and process our environment. The IOT will evolve towards a cognitive IOT model in which objects have the ability to learn and understand the physical and the social world. Pattern mining algorithms, machine learning methods and artificial intelligence techniques will be designed and executed on the Cloud in a distributed and elastic fashion to automate decision making processes."
       ],
       "researchFocus": [
         "Smart City: The Smart Cities research carries out applied research and covers various facets of the system development life cycle for smart city solutions. Our main areas of interest include city data governance and analytics, security and privacy, piloting and evaluation. More specifically, we apply distributed technologies including but not limited to Cloud, distributed ledgers, IoTs, generative AI for smart city solutions,",
@@ -212,14 +212,14 @@
           "name": "Dr Abid Sabrina",
           "role": "Team member",
           "image": "sdps_members/as.jpg",
-          "bio": "Dr Sabrina Abid est nÃ©e Ã  Mascara, AlgÃ©rie en 1984. Elle a obtenu son doctorat en sciences spÃ©cialitÃ© informatique industrielle en 2019 Ã  lâ€™universitÃ© Oran1, AlgÃ©rie. Actuellement, elle occupe un poste de Maitre ConfÃ©rence classe B au DÃ©partement d'informatique, FacultÃ© des sciences exactes, UniversitÃ© Mustapha Stambouli de Mascara. Mes intÃ©rÃªts de recherche actuels incluent le diagnostic, Diagnostic multi dÃ©fauts, diagnostic distribuÃ©, l'optimisation du placement des capteurs dans lâ€™industrie, l'intelligence artificielle, le deep learning, SystÃ¨me dâ€™aide Ã  la dÃ©cision.",
+          "bio": "Dr Sabrina Abid est née à Mascara, Algérie en 1984. Elle a obtenu son doctorat en sciences spécialité informatique industrielle en 2019 à l’université Oran1, Algérie. Actuellement, elle occupe un poste de Maitre Conférence classe B au Département d'informatique, Faculté des sciences exactes, Université Mustapha Stambouli de Mascara. Mes intérêts de recherche actuels incluent le diagnostic, Diagnostic multi défauts, diagnostic distribué, l'optimisation du placement des capteurs dans l’industrie, l'intelligence artificielle, le deep learning, Système d’aide à la décision.",
           "contact": "mailto:sabrina.abid@univ-mascara.dz"
         },
         {
           "name": "Dr MEDDEBER Hayat",
           "role": "Team member",
           "image": "sdps_members/mh.jpg",
-          "bio": "Maitre De ConfÃ©rences Classe B (depuis Janvier 2022)\n\nMots ClÃ©s de Recherche : Traitement dâ€™image ; Segmentation dâ€™image ; Classification dâ€™image ; DÃ©tection et suivi dâ€™objet ; Calcul distribuÃ©.",
+          "bio": "Maitre De Conférences Classe B (depuis Janvier 2022)\n\nMots Clés de Recherche : Traitement d’image ; Segmentation d’image ; Classification d’image ; Détection et suivi d’objet ; Calcul distribué.",
           "contact": "mailto:hayet.meddeber@univ-mascara.dz",
           "profiles": [
             {
@@ -232,7 +232,7 @@
           "name": "Dr Medjdoubi Abdelkader",
           "role": "Team member",
           "image": "sdps_members/ma.jpg",
-          "bio": "Docteur en informatique (2024), spÃ©cialitÃ© Intelligence Artificielle, avec 5 ans d'expÃ©rience en programmation et solutions informatiques. Ã‰galement enseignant de mathÃ©matiques au lycÃ©e.",
+          "bio": "Docteur en informatique (2024), spécialité Intelligence Artificielle, avec 5 ans d'expérience en programmation et solutions informatiques. Également enseignant de mathématiques au lycée.",
           "contact": "mailto:abdelkadermedjdoubi.am@gmail.com",
           "profiles": [
             {
@@ -258,7 +258,7 @@
           "name": "Benkadnia Houria",
           "role": "Team member",
           "image": "sdps_members/bh.jpg",
-          "bio": "Benkadnia Houria est maÃ®tre-assistant Ã  l'UniversitÃ© de Mascara, oÃ¹ elle exerce depuis 2012. Titulaire d'un diplÃ´me de MagistÃ¨re en Informatique Industrielle, elle poursuit actuellement un doctorat portant sur l'ordonnancement des tÃ¢ches dans les citÃ©s intelligentes, un domaine novateur et prometteur dans le secteur de l'urbanisme et des technologies numÃ©riques.\nPassionnÃ©e par l'informatique, elle maÃ®trise plusieurs langages de programmation, dont le Java, et possÃ¨de une expertise en crÃ©ation de sites web dynamiques. Elle a Ã©galement travaillÃ© sur des projets innovants dans le domaine des systÃ¨mes intelligents, notamment sur l'application des contrÃ´leurs neuro-flous, une technologie hybride combinant les rÃ©seaux neuronaux et la logique floue pour rÃ©soudre des problÃ¨mes complexes en automatisation et optimisation.\nSon parcours acadÃ©mique et ses travaux de recherche font d'elle une figure importante dans son domaine, contribuant au dÃ©veloppement des technologies Ã©mergentes et Ã  la formation des nouvelles gÃ©nÃ©rations d'ingÃ©nieurs et de chercheurs.",
+          "bio": "Benkadnia Houria est maître-assistant à l'Université de Mascara, où elle exerce depuis 2012. Titulaire d'un diplôme de Magistère en Informatique Industrielle, elle poursuit actuellement un doctorat portant sur l'ordonnancement des tâches dans les cités intelligentes, un domaine novateur et prometteur dans le secteur de l'urbanisme et des technologies numériques.\nPassionnée par l'informatique, elle maîtrise plusieurs langages de programmation, dont le Java, et possède une expertise en création de sites web dynamiques. Elle a également travaillé sur des projets innovants dans le domaine des systèmes intelligents, notamment sur l'application des contrôleurs neuro-flous, une technologie hybride combinant les réseaux neuronaux et la logique floue pour résoudre des problèmes complexes en automatisation et optimisation.\nSon parcours académique et ses travaux de recherche font d'elle une figure importante dans son domaine, contribuant au développement des technologies émergentes et à la formation des nouvelles générations d'ingénieurs et de chercheurs.",
           "contact": "mailto:houria.benkadnia@univ-mascara.dz"
         }
       ],
@@ -426,17 +426,19 @@
       "body": [
         "About:",
         "Following the successful first edition of the International Conference on Artificial Intelligence and Cyber-Physical Systems (AICPS), held at Mascara University in 2025, the Technological Laboratory in Artificial Intelligence (LABTEC-IA), Mascara University, in collaboration with the Ecole Normale Superieure d'Oran (ENSO) and the LIO Laboratory, Oran 1 University, is pleased to announce the organization of the Second International Conference on Artificial Intelligence and Cyber-Physical Systems (AICPS'26).",
-        "The second edition of AICPS will be held on December 14â€“15, 2026, at the Ecole Normale SupÃ©rieure d'Oran (ENSO), Oran, Algeria.",
+        "The second edition of AICPS will be held on December 14–15, 2026, at the Ecole Normale Supérieure d'Oran (ENSO), Oran, Algeria.",
         "AICPS'26 will bring together researchers, academics, engineers, innovators, and industry professionals to present and discuss the latest research advances, emerging trends, and future challenges in Artificial Intelligence (AI) and Cyber-Physical Systems (CPS).",
         "The conference will be organized in a hybrid format, allowing both on-site and virtual participation to encourage broad international engagement.",
         "Important Dates :",
         "- Paper Submission Deadline: September 20, 2026",
         "- Notification of Acceptance: October 30, 2026",
         "- Camera-ready Paper Deadline: November 30, 2026",
-        "- Conference Dates: December 14â€“15, 2026",
-        "Accepted papers will be submitted for inclusion in IEEE Xplore, subject to meeting IEEE Xploreâ€™s scope and quality requirements. Authors of the best papers will also have the opportunity to submit extended versions for consideration in renowned journals.",
-        "We warmly invite researchers, academics, PhD students, engineers, and professionals from around the world to submit their original contributions and join us at AICPS'26.",
-        "- Contact: aicps26@univ-mascara.dz"
+        "- Conference Dates: December 14–15, 2026",
+        "Accepted papers will be submitted for inclusion in IEEE Xplore, subject to meeting IEEE Xplore’s scope and quality requirements. Authors of the best papers will also have the opportunity to submit extended versions for consideration in renowned journals.",
+        "- Submission platform: https://cmt3.research.microsoft.com/AICPS2026/",
+        "- Contact: aicps26@univ-mascara.dz",
+        "- More information: AICPS'26 Conference Website",
+        "We warmly invite researchers, academics, PhD students, engineers, and professionals from around the world to submit their original contributions and join us at AICPS'26."
       ],
       "summary": "AICPS'26 provides a premier international forum for researchers, academics, innovators, engineers, and industry practitioners to present and discuss their latest research findings, exchange ideas, and explore emerging trends and challenges in the fields of Artificial Intelligence (AI) and Cyber-Physical Systems (CPS)",
       "links": [
@@ -498,7 +500,7 @@
     },
     {
       "id": "aicps25-moments",
-      "title": "More Moments from AICPSâ€™25",
+      "title": "More Moments from AICPS’25",
       "category": "Gallery",
       "date": "2025",
       "summary": "Check out the full photo gallery on Flickr.",
@@ -515,21 +517,21 @@
     },
     {
       "id": "aicps25-completion",
-      "title": "IEEE International Conference on Artificial Intelligence and Cyber-Physical Systems (AICPSâ€™25)",
+      "title": "IEEE International Conference on Artificial Intelligence and Cyber-Physical Systems (AICPS’25)",
       "category": "Conference",
       "date": "2025",
-      "summary": "The first edition of AICPSâ€™25 was successfully completed at Mustapha Stambouli University of Mascara.",
+      "summary": "The first edition of AICPS’25 was successfully completed at Mustapha Stambouli University of Mascara.",
       "body": [
-        "We are proud to announce the successful completion of the first edition of AICPSâ€™25, organized by our laboratory at Mustapha Stambouli University of Mascara. This two-day international conference brought together researchers, academics, and professionals from around the world to explore the latest innovations and challenges in Artificial Intelligence and Cyber-Physical Systems.",
+        "We are proud to announce the successful completion of the first edition of AICPS’25, organized by our laboratory at Mustapha Stambouli University of Mascara. This two-day international conference brought together researchers, academics, and professionals from around the world to explore the latest innovations and challenges in Artificial Intelligence and Cyber-Physical Systems.",
         "Highlights of the Two Days:",
         "Five keynote talks delivered by distinguished speakers from France, Spain, the USA, and the UK, covering cutting-edge topics such as AI-driven smart environments, environmental digital twins, edge computing, and neuro-symbolic AI,",
-        "Ten technical sessions and a poster session showcasing original research on a broad range of topics â€” from AI for healthcare, security, and embedded systems to machine learning applications, social AI, and intelligent networks,",
+        "Ten technical sessions and a poster session showcasing original research on a broad range of topics — from AI for healthcare, security, and embedded systems to machine learning applications, social AI, and intelligent networks,",
         "A vibrant hybrid format that connected in-person participants in Mascara with international researchers through online sessions, fostering rich discussions and collaborations.",
         "A friendly and inspiring social event and cultural visit, strengthening academic and professional ties among participants.",
         "Appreciation & Thanks:",
-        "We extend our heartfelt thanks to all who made AICPSâ€™25 a resounding success â€” especially the University Rector, the Dean of the Faculty of Exact Sciences, our dedicated Organizing and Scientific Committees, and the many volunteers whose efforts ensured a seamless event.",
+        "We extend our heartfelt thanks to all who made AICPS’25 a resounding success — especially the University Rector, the Dean of the Faculty of Exact Sciences, our dedicated Organizing and Scientific Committees, and the many volunteers whose efforts ensured a seamless event.",
         "Special thanks to our keynote speakers, authors, and participants for sharing their expertise and enthusiasm, and for contributing to the success of this first edition.",
-        "Together, weâ€™ve laid the foundation for a strong and collaborative community advancing research in Artificial Intelligence and Cyber-Physical Systems. We look forward to seeing you again at AICPSâ€™26!"
+        "Together, we’ve laid the foundation for a strong and collaborative community advancing research in Artificial Intelligence and Cyber-Physical Systems. We look forward to seeing you again at AICPS’26!"
       ],
       "images": [
         "aicps_2025/completion.jpg"
@@ -537,13 +539,13 @@
     },
     {
       "id": "aicps25-around-corner",
-      "title": "The First IEEE/International Conference on Artificial Intelligence and Cyber-Physical Systems (AICPS'25) is just around the corner â€” November 2â€“3, 2025!",
+      "title": "The First IEEE/International Conference on Artificial Intelligence and Cyber-Physical Systems (AICPS'25) is just around the corner — November 2–3, 2025!",
       "category": "Conference",
       "date": "2025-11-02",
       "summary": "Join us for two inspiring days of talks, research, and collaboration in AI and CPS.",
       "body": [
-        "Join us for two inspiring days of talks, research, and collaboration in AI and CPS. Donâ€™t miss out",
-        "See you soon on November 2â€“3, 2025, at the University of Mustapha Stambouli, Mascara!",
+        "Join us for two inspiring days of talks, research, and collaboration in AI and CPS. Don’t miss out",
+        "See you soon on November 2–3, 2025, at the University of Mustapha Stambouli, Mascara!",
         "For more information about the conference program, keynote speakers, and other details, please visit the official conference website at: AICPS'25"
       ],
       "images": [
@@ -575,15 +577,15 @@
     },
     {
       "id": "nc-ai-tools25-soon",
-      "title": "NC-AI-TOOLSâ€™25 â€” Just a Few Days Away!",
+      "title": "NC-AI-TOOLS’25 — Just a Few Days Away!",
       "category": "Conference",
       "date": "2025-10-12",
       "summary": "The First National Conference on Agricultural Innovations & Decision-Support Tools is approaching.",
       "body": [
-        "The First National Conference on Agricultural Innovations & Decision-Support Tools (NC-AI-TOOLSâ€™25) is just around the corner!",
+        "The First National Conference on Agricultural Innovations & Decision-Support Tools (NC-AI-TOOLS’25) is just around the corner!",
         "Organized by the Geo-Environment and Spaces Development Laboratory, in collaboration with the LABTEC-IA Laboratory and the Mascara Incubator, this event will bring together experts, researchers, and practitioners to discuss the latest innovations and digital tools transforming agriculture.",
-        "Donâ€™t miss this opportunity to exchange ideas, discover cutting-edge work, and be part of an inspiring national event!",
-        "See you soon on October 12â€“13, 2025, at the University of Mustapha Stambouli, Mascara!"
+        "Don’t miss this opportunity to exchange ideas, discover cutting-edge work, and be part of an inspiring national event!",
+        "See you soon on October 12–13, 2025, at the University of Mustapha Stambouli, Mascara!"
       ],
       "images": [
         "nc_ai_tools/nc_ai_tools_bandrole.jpg"
@@ -710,7 +712,7 @@
       "date": "2024-11-24",
       "summary": "Professor Kamal Ben Houa participated as ECO-GIRE Research Project Manager in a follow-up session with ADE.",
       "body": [
-        "Professor Kamal Ben Houa, Director of LABTEC-IA, participated as the Research Project Manager (ECO-GIRE) in a work meeting and follow-up session with the project's socio-economic partner: ADE (AlgÃ©rienne Des Eaux), This meeting was attended by officials, management, and professor-researchers who are members of the project's research team."
+        "Professor Kamal Ben Houa, Director of LABTEC-IA, participated as the Research Project Manager (ECO-GIRE) in a work meeting and follow-up session with the project's socio-economic partner: ADE (Algérienne Des Eaux), This meeting was attended by officials, management, and professor-researchers who are members of the project's research team."
       ],
       "images": [
         "pnr_project_2024/eco-gire_24-11-2024.jpg"
@@ -852,4 +854,3 @@
     }
   ]
 }
-;
