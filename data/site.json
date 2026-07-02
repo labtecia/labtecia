@@ -419,6 +419,35 @@
   ],
   "events": [
     {
+      "id": "towards-temporal-determinism-of-gpu-execution-applied-to-ai",
+      "title": "Towards Temporal Determinism of GPU Execution Applied to AI",
+      "category": "Event",
+      "date": "2026-07-02",
+      "body": [
+        "Join us for a Plenary Session on GPU Determinism for AI!",
+        "The LABTEC-IA Laboratory (Faculty of Exact Sciences, University of Mascara) is proud to host Dr. ZAHAF Houssam Eddine from the University of Nantes for an exclusive academic seminar.",
+        "Talk Title: \"Towards Temporal Determinism of GPU Execution Applied to AI\"",
+        "This plenary session is organized as part of the PHC Tassili+ Project N° 24MDU118:",
+        "\"Mitigation of Interference for Deterministic Temporal Execution of Artificial Intelligence Inferences for Critical Real-Time Systems.\"",
+        "Date: July 6, 2026",
+        "Time: 9:00 AM",
+        "Venue: The Blue Auditorium of the Central Library.",
+        "A crucial talk for understanding predictable AI, hardware acceleration, and the constraints of critical real-time systems.",
+        "Attention Students: Registration is mandatory to attend. Please secure your spot by registering at the link below.",
+        "Save the date, stay tuned, and share this event with your peers!"
+      ],
+      "images": [
+        "gpu_determinism_for_AI_2026/flyer.jpg"
+      ],
+      "summary": "A crucial talk for understanding predictable AI, hardware acceleration, and the constraints of critical real-time systems.",
+      "links": [
+        {
+          "label": "Students Registration Link",
+          "url": "https://forms.gle/NxKTkFnGY4icBMvx7"
+        }
+      ]
+    },
+    {
       "id": "the-second-international-conference-on-artificial-intelligence-and-cyber-physical-systems-aicps-26",
       "title": "The Second International Conference on Artificial Intelligence and Cyber-Physical Systems (AICPS'26)",
       "category": "Event",
