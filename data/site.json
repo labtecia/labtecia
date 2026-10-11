@@ -419,6 +419,49 @@
   ],
   "events": [
     {
+      "id": "nc-airis26-program-keynotes",
+      "title": "NC-AIRIS'26 Is Almost Here: Program and Keynote Speakers Announced",
+      "category": "Conference",
+      "date": "2026-10-11",
+      "summary": "Join us on October 14, 2026 at Mustapha Stambouli University of Mascara. Discover the draft conference program and keynote talks by Professors Chaker Abdelaziz Kerrache and Younes Guellouma.",
+      "body": [
+        "NC-AIRIS'26 is just a few days away! LABTEC-IA and the Faculty of Exact Sciences at Mustapha Stambouli University of Mascara look forward to welcoming researchers, academics, and students to the First National Conference on Artificial Intelligence: Research Innovation & Systems on Wednesday, October 14, 2026.",
+        "The draft conference program is now available to download below. Explore the keynote talks, oral communications, and poster session, and plan your day with us.",
+        "Date and venue: Wednesday, October 14, 2026 - Mustapha Stambouli University of Mascara, Algeria. Welcome and registration are scheduled from 08:00 to 09:00, followed by the opening session from 09:00 to 09:30.",
+        "Keynote 1 | 09:30-10:00, Room 1: Professor Chaker Abdelaziz Kerrache, Vice-Rector of Amar Telidji University of Laghouat, will present \"Strengthening Brain-Computer Interfaces Against Adversarial Threats: From Exposed Weaknesses to Robust AI Solutions.\"",
+        "His talk explores adversarial threats to brain-computer interfaces and how robust AI methods can improve their security and reliability. Topics include Capsule Networks, attention-driven models, adversarial training, and GAN-assisted data augmentation, bringing together perspectives from AI, cybersecurity, and neuroscience.",
+        "Keynote 2 | 10:00-10:30, Room 1: Professor Younes Guellouma, Director of the AI House (Maison de l'IA) at Amar Telidji University of Laghouat, will present \"Artificial Intelligence as a Tool for Research and Innovation.\"",
+        "His talk examines how researchers can use AI throughout scientific discovery, from structured prompt engineering to Retrieval-Augmented Generation (RAG), Cache-Augmented Generation (CAG), and autonomous agent workflows. It highlights research productivity and hypothesis testing while retaining human oversight and neurosymbolic verification.",
+        "The program also includes a coffee break and poster session from 10:30 to 11:00, parallel oral sessions from 11:00 to 12:30, and parallel online communications from 14:00 to 15:30. The closing ceremony is scheduled for 16:30-17:00.",
+        "Times are taken from the draft program and may change. Please consult the official conference website for further information and updates.",
+        "We look forward to a day of research, discussion, and exchange around artificial intelligence. See you in Mascara on October 14!"
+      ],
+      "images": [
+        "nc-airis26/banner1.jpg"
+      ],
+      "gallery": [
+        "nc-airis26/keynote-chaker-kerrache.png",
+        "nc-airis26/keynote-younes-guellouma.jpeg"
+      ],
+      "links": [
+        {
+          "label": "NC-AIRIS'26 Conference Website",
+          "url": "https://www.univ-mascara.dz/nc-airis26/"
+        },
+        {
+          "label": "Download the Draft Conference Program",
+          "url": "nc-airis26/NC-AIRIS26_Draft-Program.pdf"
+        }
+      ],
+      "attachments": [
+        {
+          "label": "NC-AIRIS'26 Draft Conference Program",
+          "url": "nc-airis26/NC-AIRIS26_Draft-Program.pdf",
+          "type": "PDF"
+        }
+      ]
+    },
+    {
       "id": "towards-temporal-determinism-of-gpu-execution-applied-to-ai",
       "title": "Towards Temporal Determinism of GPU Execution Applied to AI",
       "category": "Event",
