@@ -390,9 +390,9 @@
         {
           "name": "Dr Ahmed BOUDAIB",
           "role": "Team member",
-          "image": "aiis_members/ba.jpg",
-          "bio": "Dr Ahmed BOUDAIB, currently works as Professor Researcher at the department of computer science, University of Mustapha Stambouli, Mascara. He holds PhD in computer science from University of Oran1, Oran. His research interest include : Application of Machine learning and Deep learning in Signal and Images Processing, Computer Vision, and Intelligent Systems.",
+          "image": "aiis_members/b.jpg",
           "contact": "mailto:boudaieb.ahmed@gmail.com",
+          "bio": "Dr Ahmed BOUDAIB, currently works as Professor Researcher at the department of computer science, University of Mustapha Stambouli, Mascara. He holds PhD in computer science from University of Oran1, Oran. His research interest include : Application of Machine learning and Deep learning in Signal and Images Processing, Computer Vision, and Intelligent Systems.",
           "profiles": [
             {
               "label": "Google Scholar",
@@ -403,7 +403,7 @@
         {
           "name": "Dr. Mohamed El Amine Douad",
           "role": "Team member",
-          "image": "aiis_members/md.jpg",
+          "image": "aiis_members/dm.jpg",
           "contact": "mailto:m.douad@univ-mascara.dz",
           "bio": "Mohamed El Amine Douad is an Assistant Professor at Mustapha Stambouli University of Mascara and a former IT Study and Development Engineer at Sonatrach in Algeria. His research interest includes : Artificial Intelligence, Algorithms and Data Mining.",
           "profiles": [
@@ -423,7 +423,7 @@
           {
             "name": "Soumia BENTORKI",
             "role": "Team member",
-            "image": "aiis_members/bs.jpg",
+            "image": "aiis_members/bss.jpg",
             "contact": "mailto:benterki.soumia@univ-mascara.dz"
           }
         ]
